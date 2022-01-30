@@ -2,6 +2,7 @@
 
 ## Project setup
 ```
+nvm install
 yarn install
 ```
 
