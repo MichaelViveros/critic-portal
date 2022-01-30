@@ -17,11 +17,12 @@ export default {
       critic: {
         name: "Justin Chang",
         bio: "Chief film critic for the LA Times.",
-        img: require("./assets/justin-chang.jpeg"),
+        imgSrc: require("./assets/justin-chang.jpeg"),
         randomFacts: [
           "Had a line in Minari",
           "Has met Michael Viveros",
-          "His fans include Ryan Coogler"
+          "His fans include Ryan Coogler",
+          "Favourite movie is Chunking Express",
         ],
       },
     }

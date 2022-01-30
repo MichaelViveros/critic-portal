@@ -2,7 +2,7 @@
   <div>
     <img
       alt="Critic pic"
-      :src="this.critic.img"
+      :src="this.critic.imgSrc"
     />
     <h1>{{ critic.name }}</h1>
     <p>{{ critic.bio }}</p>
