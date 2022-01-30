@@ -14,7 +14,7 @@ yarn serve
 
 Run a test:
 ```
-yarn test:unit tests/unit/components/critic.spec.js
+yarn test:unit tests/unit/components/Critic.spec.js
 ```
 
 Run lint:

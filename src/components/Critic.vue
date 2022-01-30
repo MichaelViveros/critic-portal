@@ -19,7 +19,7 @@ export default {
     critic: Object,
   },
   computed: {
-    fact: function() {
+    fact: function () {
       return this.critic.randomFacts[this.factIndex]
     },
   },
@@ -29,7 +29,7 @@ export default {
     }
   },
   methods: {
-    changeFact() {
+    changeFact: function () {
       const max = this.critic.randomFacts.length
       this.factIndex = Math.floor(Math.random() * max)
     }
