@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Critic.vue renders correctly 1`] = `
+<div><img alt="Critic pic">
+  <h1>Justin Chang</h1>
+  <p>Chief film critic for the LA Times.</p>
+  <p>Random Fact:</p>
+  <p>Had a line in Minari</p> <button>New Random Fact</button>
+</div>
+`;

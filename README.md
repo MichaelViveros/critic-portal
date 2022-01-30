@@ -1,25 +1,23 @@
 # critic-portal
 
 ## Project setup
+Install the correct node version and dependencies:
 ```
 nvm install
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+Run the server:
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+Run a test:
 ```
-yarn build
+yarn test:unit tests/unit/components/critic.spec.js
 ```
 
-### Lints and fixes files
+Run lint:
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

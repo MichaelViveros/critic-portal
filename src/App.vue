@@ -1,18 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Critic :critic="critic"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Critic from './components/Critic.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Critic
+  },
+  data: function () {
+    return {
+      critic: {
+        name: "Justin Chang",
+        bio: "Chief film critic for the LA Times.",
+        img: require("./assets/justin-chang.jpeg"),
+        randomFacts: [
+          "Had a line in Minari",
+          "Has met Michael Viveros",
+          "His fans include Ryan Coogler"
+        ],
+      },
+    }
+  },
 }
 </script>
 
